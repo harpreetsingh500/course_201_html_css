@@ -1,0 +1,60 @@
+h1, p {
+  margin: 20px;
+}
+
+p, a {
+  font-size: 19px;
+  line-height: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  padding: 20px;
+  border: 2px dashed black;
+  margin: 50px;
+  width: 70%;
+}
+
+#main {
+  width: 1000px;
+  border: 2px solid gray;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.box_2 a {
+  margin: 20px;  
+}
+
+.box_3 a {
+  padding: 26px 30px;
+  background-color: green;
+}
+
+.box_4 {
+  overflow: hidden;
+  clear: both;
+}
+
+.box_4 a {
+  padding: 26px 30px;
+  background-color: green;
+  float: left;
+  margin: 10px;
+}
+
+.main-heading {
+  color: #ce4a4a;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
