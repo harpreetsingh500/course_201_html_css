@@ -1,0 +1,60 @@
+body {
+  font: normal 26px Arial;
+}
+
+body * {
+  margin: 0;
+}
+
+div {
+  overflow: hidden;  
+  width: 50%;
+  border: 2px solid black;
+}
+
+p {
+  margin: 0 15px 6px 15px;
+}
+
+dd p {
+  margin: 5px 0 0 0;
+}
+
+.right-align {
+  margin-right: 15px;
+  float: right;
+  display: inline-block;
+  text-align: right;
+}
+
+.right-align + h2 {
+  border-top: 13px solid black;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid black;  
+}
+
+dl {
+  float: left;
+  width: 50%;
+}
+
+dl * {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 54px;
+  margin: 15px 0 0 15px;
+}
+
+header h2 {
+  border-top: 26px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px 0 10px 0;  
+}
+
+h2 {
+  width: 95%;
+  font-size: 26px;
+  margin: 5px 0 0 15px;
+}

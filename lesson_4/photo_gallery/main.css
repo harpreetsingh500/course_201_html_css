@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background: black;
+}
+
+main {
+  background: #333;
+  min-width: 600px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+figure img {
+  border: 14px solid white;  
+  width: 100%;
+  box-sizing: border-box;
+}
+
+figcaption {
+  text-align: left;
+}
+
+h1 {
+  margin: 0;
+  padding: 50px 0 20px 0;
+  color: white;
+}
+
+ul {
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 5px;
+  width: 25%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+li img {
+  display: block;  
+  width: 100%;  
+  border: 2px solid white;
+  box-sizing: border-box;
+}

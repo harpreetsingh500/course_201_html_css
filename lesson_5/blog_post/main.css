@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  Blog Post CSS
+*/
+
+body {
+  text-align: center;
+  background: #3d3d3d;
+  font: normal 20px Arial, sans-serif;
+}
+
+h1 {
+  font-size: 68px;
+  color: #fff;
+  margin: 146px 0 51px 0;
+}
+
+header img {
+  display: block;
+  margin: 0 auto 138px auto;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 30px 0 30px;
+}
+
+header nav a:hover {
+  color: #f5dc39;
+}
+
+a {
+  text-decoration: none;
+}
+
+.highlighted {
+  color: #50c3af;
+}
+
+main {
+  overflow: hidden;
+  margin-top: 53px;
+  background: #fff;
+  padding: 90px 103px 0 98px;
+}
+
+.articles {
+  text-align: left;  
+  float: left;
+  display: inline-block;
+  width: 63%;  
+}
+
+main article {
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+main article h2 {
+  color: #45494d;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.highlight:hover {
+  color: #50c3af;  
+}
+
+main article p a {
+  color: #50c3af;
+}
+
+.paragraph-title {
+  margin-bottom: 40px;
+}
+
+.comment {
+  margin-top: 40px;
+}
+
+.post-comment {
+  text-align: left;
+  clear: both;
+}
+
+main section {
+  text-align: left;
+  width: 15%;
+  background: #f6f7f8;
+  float: right;
+  padding: 38px 33px 20px 37px;
+}
+
+main section h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+main section img {
+  margin-right: 12px;
+}
+
+main section ul {
+  margin-top: 32px;
+}
+
+main section ul li {
+  margin-bottom: 12px;
+}
+
+main section ul li a {
+  font-size: 14px;
+  color: #787b80;
+}
+
+main section ul li a:hover {
+  color: #50c3af;
+}
+
+main section div {
+  margin-top: 122px;
+}
+
+main section div h3 {
+  margin-bottom: 35px;
+}
+
+main section div p {
+  font-size: 14px;
+  color: #787b80;
+}
+
+.pagination {
+  text-align: left;
+  clear: both;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  padding: 5px 25px;
+  font-size: 15px;
+  color: #f5f5f5;
+  border-radius: 20px;
+  background: #50c3af;
+}
+
+.pagination a.disabled {
+  background: #d2d5da;
+  cursor: default;
+}
+
+.pagination a.next {
+  margin-left: 25px;
+}
+
+footer {
+  background: #fff;
+  padding: 93px 99px 50px 98px;
+}
+
+footer p {
+  text-align: left;
+  font-size: 12px;
+  color: #a0a3a7;
+  border-top: 1px solid #d0d0d0;
+  padding-top: 18px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    margin: 40px 0 30px 0;
+    font-size: 48px;
+  }
+  main article h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+.articles {
+  text-align: left;  
+  display: inline-block;
+  width: auto;  
+}  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
